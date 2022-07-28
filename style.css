@@ -1,0 +1,818 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+*{font-family: consolas;
+  
+  
+}
+ html{
+  scroll-behavior: smooth; 
+   transition: all 300ms ease;
+   
+ }
+
+
+
+/*-------------*/
+
+.section-container{
+ overflow: hidden; 
+  border-radius:23px;
+  transition: all 300ms ease;
+  
+}
+
+
+
+.x-store{
+  text-shadow: 0 2px 4px lightgreen;
+  
+}
+
+
+
+.zommee{
+  overflow: hidden;
+  transition: all 300ms ease;
+  
+}
+
+.zommee:hover{
+  
+  border-radius:8px;
+  border:solid red;
+  transition: all 300ms ease;
+}
+
+
+.spanner2{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color:orange;
+  overflow: hidden;
+  text-shadow: 
+  0 2px 2px red , 
+   2px 3px yellow;
+  animation: fade;
+  animation-duration: 3s;
+  
+}
+
+
+@keyframes fade{
+  
+  0%{opacity: 0;
+    transform: translatey(60px);
+  }
+  
+  100%{opacity: 1;
+    transform: translatey(0);
+  }
+  
+  
+  
+  
+}
+  
+
+
+
+
+
+.price-1{
+  display: flex;
+  justify-content: center;
+  color: #854766;
+  margin-top:10px;
+  border-bottom: solid green;
+  animation: fade;
+  animation-duration: 4s;
+}
+
+
+.printed{
+  
+  background-color: azure;
+  
+  margin-bottom:10px;
+}
+
+.Album-111{
+  
+  overflow: hidden;
+}
+
+.Album-111:hover{
+  overflow: hidden;
+  border-radius: 12px;
+  
+}
+
+.Album-1-1-div{
+  width:100px;
+  border-radius: 20%;
+  margin:60px;
+ margin-left:111px;
+  overflow:hidden;
+}
+
+
+  
+  
+  
+
+
+
+
+.price-container-{
+  color:red;
+}
+
+
+.img-2{
+  width:100px;
+  height:100px;
+  display: flex;
+ justify-content: center; 
+  align-items: center;
+  
+  border-radius: 20%;
+  margin: 0 auto;
+}
+
+.img-2:hover{
+  transform:scale(3,3);
+  transition: .3s transform;
+  border-radius: 20px;
+  transition: all 300ms ease;
+}
+
+
+
+
+.button-2-primary{
+  display: flex;
+  margin-left: 40px;
+  background: aliceblue;
+  color: darkolivegreen;
+  border-bottom-color: indigo;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+  color:Grey;
+  display: flex;
+  justify-content: center;
+  margin-bottom:100px;
+  
+}
+
+.beauty{
+  color:orange;
+  
+}
+
+.beauti{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  color:red;
+  background: sienna;
+  background-size: cover;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px black;
+  text-shadow: 0 2px  4px white;
+  
+}
+
+
+
+
+h2{
+
+color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: antiquewhite;
+  border-radius: 20px;
+  height:90px;
+  border:solid black;
+  background: url("Hubble Space wallpapers HD   197117_987569_CS-3705.jpg");
+  
+  
+}
+
+
+h4{
+  display: flex;
+  justify-content: center;
+  
+  
+  
+}
+
+
+
+
+
+.mainheader{
+  
+  
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom:10px;
+  background-repeat: repeat-x;
+  width:100%;
+  border-radius:8%;
+}
+
+
+li{ list-style-type: none;
+  
+  
+}
+
+a{
+  text-decoration: none;
+  
+  
+  
+}
+  
+}
+
+.nav ul{
+  
+  
+}
+
+
+nav{
+  height: 150px;
+  width:90%;
+  
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.navlist{
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  background: linen;
+  color: green;
+  border-radius: 10px;
+}
+.link{
+  margin: 0 5px;
+  padding: 10px;
+  color:lightblue;
+  
+}
+
+.link2{
+  border: solid azure;
+  border-radius:10px;
+  color: red;
+  background: blanchedalmond;
+  transition: all 300ms ease;
+  
+  
+}
+
+
+
+/* ----------    SECTION COINTAINER */
+
+
+
+.div-container{
+display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: url("pexels-visit-greenland-360912_154994_crop_7762.jpg") ;
+  
+  border-radius:9px;
+  
+}
+
+
+
+.Album-1-div{
+  width:100%;
+  
+  
+}
+
+.img-1{
+  width:70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  transition: all 300ms ease;
+  border-radius: 9px;
+}
+
+
+.img-1:hover{
+  transform: scale(2,2);
+  transtion:.3s ms;
+}
+
+.img-10{
+  width:75px;
+  height: 75px;
+  
+}
+
+
+
+.price-container:hover{
+  color:red;
+  
+  
+  
+}
+
+.price{
+  color:green;
+}
+
+
+
+.button-1-primary{
+  color:white;
+  display: flex;
+  margin-left: 40px;
+  font-size:5px;
+  border-radius: 4px;
+}  
+
+
+.button-1{
+  background: teal;
+  
+}
+
+
+.button-1:hover{
+  background: wheat;
+  color:red;
+  
+}
+
+
+
+
+
+.Album-1-div{
+  width:100px;
+  margin: 30px;}
+
+.Album-1-div:hover{
+  
+  color:red;
+  
+}
+
+
+
+
+.spanner{
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------*/
+
+
+
+
+
+.mainheader2{
+  background-color: cornsilk;
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom:50px;
+  border-radius: 6px;
+  
+  
+}
+
+
+
+.div-container1{
+display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: url("pexels-jill-burrow-6387806_602842_crop_1000.jpg");
+  
+  
+  transition: .3s transform;
+  border-radius:7%;
+  transition: all 300ms ease;
+  
+  
+}
+
+
+.div-container1:hover{transition: .3s transform;
+  border-radius:5%;
+  transition: all 300ms ease;
+  overflow: hidden;}
+
+
+
+
+
+
+
+/*   -------------- */
+
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+
+
+/* --------------*/
+
+
+.navlist-1{
+  display: flex;
+  padding: 30px;
+  margin:10px;
+  
+  color: green;
+  
+}
+.link-12{
+  margin: 0 20px;
+  padding: 1px;
+  color: darkmagenta;
+  
+}
+
+
+
+
+
+.imagefish{
+  width:50px;
+  height: 50px;
+  border-radius:3px;
+  margin: 2px 23px;
+  
+}
+
+
+
+.fishimage{
+  display: flex;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  
+}
+
+.imagefish:hover{
+  
+  transform: scale(1.5,1.5);
+  transition: all 300ms ease;
+  border-radius: 50px;
+}
+
+
+
+
+/*-------------*/
+
+
+
+.cart-header{
+  border-bottom: solid;
+  margin:2px 20px;
+  
+}
+
+
+
+.items-container{
+  border-top:solid;
+  border-bottom: solid;
+  background: #829e9a;
+  border-radius: 8px;
+  
+}
+
+.cart-bodie{
+  margin: 9px;
+  
+}
+
+.cart-body{
+ font:bold; 
+  margin-right:70px;
+  color: #8a4266;
+  
+}
+
+.cart-foot{
+  display: flex;
+  align-content: center;
+  border-bottom: solid;
+  margin-bottom: 10px;
+  margin-top:10px;
+  
+  
+}
+
+
+.item-div{
+  display: flex;
+  
+}
+
+
+
+/*--------------*/
+
+.item-div-purchase{
+  display: flex;
+  
+  overflow: hidden;
+}
+
+.spanner-fish{
+  width:45%;
+  color:red;
+ margin-top:14px;
+ font: italic; 
+  
+}
+
+.spanner-doller{
+  width:20%;
+  margin-right: 50px;
+ margin-top:15px;
+  color:green;
+  
+}
+
+.input-button{
+  width:35%;
+}
+
+
+
+.fishing{
+  margin-left:6px;
+  color:green;
+  
+  
+}
+
+
+
+
+
+.cart-button{
+  height:10px;
+  width:50px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 5px #2e2a25;
+  
+  
+}
+
+.input-button{
+  height:15px;
+  width:30px;
+  background:rgb(204, 0, 102) ;
+  text-align: center;
+  border: white;
+  margin-top:17px;
+  margin-right: 6px;
+  border-radius: 5px;
+  
+  
+}
+
+.button-cart{
+  width:60px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-top: 12px;
+  padding: 11px;
+  color:#ffffff  ;
+ background:#09441b ; 
+  border-color:	 #000000;
+  transition: all 300ms ease;
+  
+}
+
+.button-cart:hover{
+  color:red;
+  
+  
+}
+
+
+/* total --- */
+
+
+
+
+
+.total-cart{
+  text-align: end;
+  margin-top:20px;
+  
+}
+
+
+
+.btn-primary{
+  display: block;
+  margin: 40px auto 80px auto;
+  width:200px;
+  height: 50px;
+  font-size:30px;
+  border-top-color:	#690f2d; 
+  background:#12183a ;
+  transition: all 300ms ease;
+}
+
+
+.btn-secon{
+  color: red; 
+  border-radius: 30px;
+  box-shadow: 0 3px 5px #26231d;
+  
+  
+}
+
+.btn-secon:hover{
+  
+  
+  color:#5e1f11;
+  
+}
+
+
+
+#section{
+  display: flex;
+  text-align: center;
+}
+
+
+
+.main-footer{
+  paddig:2px;
+  background-color: blue;
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px #1c160e;
+}
+
+
+
+}
+.main-footer-container{
+  display: flex;
+  align-items: center;
+  
+}
+
+.main-footer-container ul{
+  flex-grow: 1;
+  text-align: end;
+  
+}
+.image-footer{
+  width:20px;
+  height: 20px;
+  border-radius: 9px;
+}
+
+.footer-nav li {
+  
+  display: flex;
+  justify-content: center;
+  float: right;
+  margin-right: 64px;
+  
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+  
+  
+}
+
+.band-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size:15px;}
+
+
+
+
+
+
+
+/*--------*/
+
+
+.footer__row{
+  display: flex;
+  padding: 8px 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+
+
+.footer__anchor{
+  margin-bottom: 1px;
+  position:relative;
+  
+}
+
+
+.footer__anchor:hover
+{
+  transition: translatex(60px);
+  opacity: 1;}
+
+.footer-im{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+
+
+.fotest{
+  width:100%;}
+
+
+.pho{
+  
+}
